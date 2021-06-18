@@ -32,3 +32,9 @@ Create a local repository folder.
 Initialize Git in that folder.
 Clone your remote GitHub repository to the new folder.
 You will then use the synchronization steps that follow to keep files synchronized between your computer(s) and your GitHub repository.
+
+### Initialize Git  
+You should have already set up Git in previous steps, but if you didn't (or if you aren't sure), execute the following commands in Command Prompt or Terminal:  
+
+git config --global user.name "<USERNAME>"  
+git config --global user.email "<EMAIL>"  
