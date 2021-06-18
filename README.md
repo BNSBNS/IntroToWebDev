@@ -7,7 +7,7 @@ For more information about this course or other courses we offer, please visit o
 ![The Software Guild](https://the-software-guild.s3.amazonaws.com/tsg-logos/swg_logo-black.png)
 
 
-#notes  
+## notes  
 git pull origin master
 
 This command tells git to pull down any changes made to the repository since the last commit (by anyone from any computer) and ensures that your copy of the repository is up to date.
