@@ -19,10 +19,10 @@ The word master refers to the main branch of the repository. For this course, yo
 ### Keeping Content Synchronized  
 As you work through this course and add, edit, or delete files in your repository folder, remember to synchronize significant changes with your GitHub repository, using the four steps we just walked through:
 
-git add --all
-git commit -m "commit message"
-git pull origin master
-git push origin master
+git add --all  
+git commit -m "commit message"  
+git pull origin master  
+git push origin master  
 You should complete these steps at the end of every coding activity in the course, but you can do them more often, if you wish, especially if you plan to use multiple computers as you work through this course.
 
 ### Set up Another Computer (Optional)  
