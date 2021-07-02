@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+    comments
+-->
+
+<html lang="en">
+  <head>
+    <title>Page title</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact me</h1>
+      <h2><a href="index.html">Projects</a></h2>
+        <h2>Info request</h2>
+
+      <form action="submit.html" method="POST">
+        <label for="firstName">First Name:</label><br />
+        <input type ="text" id=FirstName" name="firstName"><br />
+
+        <label for "lastName">Last Name: </label><br />
+        <input type="text" id="lastName" name="lastName"> <br />
+        <label for="phone">Phone Number: </label><br />
+
+        <label for="contact">Best time to call: </label><br />
+        <select id="contact" name="contact">
+            <option value="default" selected>--Select One--</option>
+            <option value ="morning">Morning (8AM to 12PM SGT)</option>
+<option value="morning">Afternoon(12 to 17 SGT)</option>
+        </select>
+
+        <fieldset>
+            <legend>I am interested in(check all that apply) </legend><br />
+            <input type="checkbox" id="frontEnd"name ="interest" value="frontEnd   ">
+            <label for="frontEnd">Front End Dev</label><br />
+            <input type ="checkbox" id="backEnd" name ="interest" value="backEnd">
+            <label for="backEnd">back end dev</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                I have filled in client questionaire form:
+            </legend><br / >
+            <input type="radio" id="choice1" name="questionaire" value="yes">
+            <label for="choice1">Yes</label><br />
+            <input type="radio" id="choice2" name="questionaire" value="no">
+            <label for="choice2">Noo</label><br/>
+        </fieldset>
+
+        <label for="info">additional info</label><br />
+        <textarea id="info" name="info"></textarea>
+        <input type="submit" name="submit" value="submit">
+    </form>
+    </header>
+    <footer></footer>
+  </body>
+</html>
