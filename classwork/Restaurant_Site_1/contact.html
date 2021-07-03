@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- 
+    assignment1 - contacts html
+    date: 3rd July 2021
+  
+ -->
+
+<html lang="en">
+  <head>
+    <hr />
+    <title>Eat with Mask on Restaurant</title>
+    <hr />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>Eat with Mask Restaurant</h1>
+      </header>
+
+      <nav>
+        <hr />
+        <p>
+          <a href="home.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contacts</a>
+        </p>
+      </nav>
+      <section>
+          <article id="Resturant-Contact-Desicription">
+              <!-- cell spacing = word and sell
+                    cell padding = cell and cell    
+                -->
+
+            <form action="contact.html" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br /><br/>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" email="email"><br /> <br />
+
+
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" phone="phone"><br/><br />
+                
+                <label for="reason">Reason for Inquiry: </label><br />
+                <select id="reason" name ="reason">
+                    <option value="default" selected>--Select One--</option>
+                    <option value = "catering">Catering</option>
+                    <option value="dine-in">Dine-In</option>
+                </select>
+                <br /> <br>
+
+                <legend>
+                    Have you ever been to the restaurant?
+                </legend>
+
+                <input type="radio" id="choice1" name="visted" value="No">
+                <label for="choice1">No</label>
+                <input type="radio" id="choice2" name="visited" value="yes">
+                <label for="choice2">Yes</label><br /> <br/>
+                
+                    <label for="additionalInfo">Additional Information</label> <br />
+                    <textarea id="addInfo" name="addInfo"></textarea> <br/>
+                    <br />
+
+                    <legend>Best days to contact you: </legend>
+                    <input type="checkbox" id="m" name="interest" value="m">
+                    <label for="m">M</label>
+
+                    <input type="checkbox" id="t" name="interest" value="t">
+                    <label for="w">T</label> 
+                     
+                    <input type="checkbox" id="w" name="interest" value="w">
+                    <label for="w">W</label> 
+                    
+                    <input type="checkbox" id="th" name="interest" value="th">
+                    <label for="th">Th</label> 
+
+                    <input type="checkbox" id="f" name="interest" value="f">
+                    <label for="f">F</label> 
+  
+                    <br>
+                    <input type ="submit" name="submit" value="Send Request">
+
+            </form>
+
+        </article>
+      <footer>
+        <hr />
+        <p>Always sunny, always windy drive, 5555</p>
+        <p>tel: 12345 54321</p>
+      </footer>
+    </main>
+  </body>
+</html>
