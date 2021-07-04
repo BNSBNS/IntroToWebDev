@@ -45,3 +45,8 @@ The head goes at the very top of the page, above the body element. Nothing insid
 The header element is used at the top of (but inside) the body element, like the page header of a printed document. While headers are most often used only once in a page, it is possible for separate logical sections of the same page to include separate headers.  
 A heading element is used to create titles that identify the content or purpose of a specific section of a page, like h1, h2, and so on. Web pages are very likely to have multiple headings.   
   
+
+### useful sites for design, to ensure no copyright issues.
+  https://www.pexels.com/  
+  https://pixabay.com/  
+  
