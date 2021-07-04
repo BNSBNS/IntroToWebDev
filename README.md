@@ -18,7 +18,8 @@ The word master refers to the main branch of the repository. For this course, yo
 
 **********  
 Remember that the dot (.) in front of the selector tells the browser to look for elements with that class value, so this style will apply only to elements where class="border".  
-
+**********  
+Remember that the # symbol is used to identify id values, so this selector tells the browser to find the element with that id value in the page.  
 
 
 ### Keeping Content Synchronized  
