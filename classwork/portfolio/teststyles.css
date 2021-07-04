@@ -1,0 +1,17 @@
+header,
+footer {
+  background-color: lime;
+  color: white;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.border {
+  border: thick solid blue;
+}
+
+#experience {
+  border: thick dashed orange;
+}

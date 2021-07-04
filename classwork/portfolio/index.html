@@ -7,6 +7,17 @@ update: 19 June 2021
 <html lang="en">
   <head>
     <title>My Portfolio</title>
+
+    <!-- 
+        adding style in head, just after title
+     -->
+
+    <link href="teststyles.css" rel="stylesheet" type="text/css" />
+    <style>
+      header {
+        background-color: darkgray;
+      }
+    </style>
   </head>
   <body>
     <main>
@@ -15,16 +26,16 @@ update: 19 June 2021
       </header>
 
       <!-- to add links later on -->
-      <nav>
-        <hr />
+      <nav class="border">
+        <hr style="border: thin dotted red" />
         <p>links to pages</p>
         <p><a href="">Home</a></p>
         <p><a href="projects.html">Projects</a></p>
-        <hr />
+        <hr style="width: 50%; border: 2px solid blueviolet" />
       </nav>
 
       <section>
-        <article id="about-me">
+        <article class="border" id="about-me">
           <h2><em>About me</em></h2>
 
           <img src="images/horse.jpg" alt="this is a horse pic" />
