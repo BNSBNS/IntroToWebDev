@@ -16,7 +16,7 @@ In this command, the word origin refers to your online repository, as referenced
 
 The word master refers to the main branch of the repository. For this course, you don't really need to use or understand branches, but as a quick explanation, you can think of a branch as a copied version of the original set of files. For example, one developer on a team may make their own branch of the repository so they can make changes without affecting the code in the file used by other team members. Once that developer has finished making and testing the changes, they can merge the changes back to the master branch.
 
-
+**********  
 Remember that the dot (.) in front of the selector tells the browser to look for elements with that class value, so this style will apply only to elements where class="border".  
 
 
