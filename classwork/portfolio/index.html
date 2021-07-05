@@ -14,12 +14,31 @@ update: 19 June 2021
 
     <link href="teststyles.css" rel="stylesheet" type="text/css" />
     <style>
+
+#outside{
+  border: thin black solid;
+  width:400px;
+  height: 200px;
+  background-color: #800d14;
+  margin-left: 50px;
+  margin-top: 50px
+}
+
+#inside{
+  text-align:center;
+  font-size:2em;
+  background-color: white;
+}
+
       header {
         background-color: darkgray;
       }
     </style>
   </head>
   <body>
+    <div id=:outside">
+      <button id="inside">im a button</button>
+    </div>
     <main>
       <header>
         <h1>Portfolio for me</h1>
